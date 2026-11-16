@@ -1,0 +1,30 @@
+# SOPS encrypted secrets (each developer creates their own)
+secrets.enc.env
+secrets.env
+
+# Environment files (never commit plaintext secrets)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# System files
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Node (if using Node.js)
+node_modules/
+dist/
+build/
+
+# Python (if using Python)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
