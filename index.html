@@ -7,6 +7,7 @@
     <meta name="description" content="Jamie Mills. Engineer and technology leader. Head of Engineering for Media at WPP. London, UK.">
     <title>Jamie Mills</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <script src="theme.js"></script>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -35,7 +36,14 @@
 
       <footer class="site-footer small-label">
         <span>Jamie Mills</span>
-        <span>Engineering / Product / Technology</span>
+        <label class="theme-switch" hidden>
+          <span>Theme</span>
+          <select id="theme-choice" name="theme">
+            <option value="system">System</option>
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </label>
       </footer>
     </div>
   </body>
